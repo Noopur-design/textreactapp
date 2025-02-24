@@ -1,0 +1,15 @@
+.side-drawer {
+    position: fixed; /* fixed */
+    top: 0; /* top-0 */
+    left: 0; /* left-0 */
+    height: 100%; /* h-full */
+    width: 16rem; /* w-64 (16rem = 64 * 0.25rem) */
+    background-color: white; /* bg-white */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    transform: translateX(-100%); /* -translate-x-full */
+    transition: transform 300ms ease-in-out; /* transition-transform duration-300 ease-in-out */
+  }
+  
+  .side-drawer.open {
+    transform: translateX(0); /* translate-x-0 */
+  }
